@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #000000;
 }
 
 @theme inline {
@@ -14,13 +15,47 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #000000;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Rye', serif;
+}
+
+/* Apply Rye font to all elements and ensure black text */
+* {
+  font-family: 'Rye', serif;
+  color: #000000 !important;
+}
+
+/* Newspaper button style for all site buttons */
+.newspaper-button {
+  background: linear-gradient(145deg, #f4f1e8, #e8e2d0);
+  border: 3px solid #2c1810;
+  color: #2c1810;
+  font-family: 'Old English Text MT', 'Cinzel', serif;
+  font-weight: bold;
+  padding: 12px 24px;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 
+    inset 2px 2px 4px rgba(255,255,255,0.3),
+    inset -2px -2px 4px rgba(0,0,0,0.2),
+    4px 4px 8px rgba(0,0,0,0.3);
+}
+
+.newspaper-button:hover {
+  background: linear-gradient(145deg, #dc2626, #b91c1c);
+  color: #f4f1e8;
+  border-color: #7f1d1d;
+  transform: translateY(-2px);
+  box-shadow: 
+    inset 2px 2px 4px rgba(255,255,255,0.2),
+    inset -2px -2px 4px rgba(0,0,0,0.4),
+    6px 6px 12px rgba(0,0,0,0.4);
 }
