@@ -16,7 +16,7 @@ export default function FAQSection() {
         </h2>
         
         <div className="space-y-6">
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+          <div>
             <h3 className="text-2xl font-bold mb-3 text-amber-900">What is Diversion 2026?</h3>
             <p className="text-amber-800">
               Diversion 2026 is a 48-hour hackathon and tech festival where developers, designers, 
@@ -24,7 +24,7 @@ export default function FAQSection() {
             </p>
           </div>
           
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+          <div>
             <h3 className="text-2xl font-bold mb-3 text-amber-900">Who can participate?</h3>
             <p className="text-amber-800">
               Anyone with a passion for technology! Whether you're a student, professional, 
@@ -32,7 +32,7 @@ export default function FAQSection() {
             </p>
           </div>
           
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+          <div>
             <h3 className="text-2xl font-bold mb-3 text-amber-900">Do I need a team?</h3>
             <p className="text-amber-800">
               You can participate solo or in teams of up to 4 members. We'll also have team 
@@ -40,7 +40,7 @@ export default function FAQSection() {
             </p>
           </div>
           
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+          <div>
             <h3 className="text-2xl font-bold mb-3 text-amber-900">What should I bring?</h3>
             <p className="text-amber-800">
               Bring your laptop, charger, valid ID, and enthusiasm! We'll provide meals, 
@@ -48,7 +48,7 @@ export default function FAQSection() {
             </p>
           </div>
           
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+          <div>
             <h3 className="text-2xl font-bold mb-3 text-amber-900">Are there prizes?</h3>
             <p className="text-amber-800">
               Yes! We have a prize pool of $50,000 across various categories including 
@@ -56,7 +56,7 @@ export default function FAQSection() {
             </p>
           </div>
           
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+          <div>
             <h3 className="text-2xl font-bold mb-3 text-amber-900">Is accommodation provided?</h3>
             <p className="text-amber-800">
               The venue will be open 24/7 during the event. You can bring sleeping bags, 

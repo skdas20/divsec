@@ -19,7 +19,7 @@ export default function ContactSection() {
           <div>
             <h3 className="text-3xl font-bold mb-6 text-amber-900">Get in Touch</h3>
             <div className="space-y-4">
-              <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300">
+              <div>
                 <div className="flex items-center space-x-3">
                   <span className="text-2xl">📧</span>
                   <div>
@@ -29,7 +29,7 @@ export default function ContactSection() {
                 </div>
               </div>
               
-              <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300">
+              <div>
                 <div className="flex items-center space-x-3">
                   <span className="text-2xl">📱</span>
                   <div>
@@ -39,7 +39,7 @@ export default function ContactSection() {
                 </div>
               </div>
               
-              <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300">
+              <div>
                 <div className="flex items-center space-x-3">
                   <span className="text-2xl">📍</span>
                   <div>
@@ -49,7 +49,7 @@ export default function ContactSection() {
                 </div>
               </div>
               
-              <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300">
+              <div>
                 <div className="flex items-center space-x-3">
                   <span className="text-2xl">🌐</span>
                   <div>
@@ -66,7 +66,7 @@ export default function ContactSection() {
           
           <div>
             <h3 className="text-3xl font-bold mb-6 text-amber-900">Send a Message</h3>
-            <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+            <div>
               <form className="space-y-4">
                 <div>
                   <label className="block text-amber-900 font-bold mb-2">Name</label>

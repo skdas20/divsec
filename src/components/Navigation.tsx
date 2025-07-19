@@ -53,7 +53,7 @@ export default function Navigation() {
           {/* Top decorative border - Enhanced with ornate design */}
           <div className="flex justify-center items-center w-full mb-3">
             <div className="text-white text-xl" style={textStyle}>
-              ❦═══◊◈◊═══════════════════════════════════════════════════════════════════════════════════════════════════════◊◈◊═══❦
+              ❦═══◊◈◊═══════════════════════════════════════════════════════════════════════════════════════════◊◈◊═══❦
             </div>
           </div>
           
@@ -74,7 +74,7 @@ export default function Navigation() {
           {/* Bottom decorative border - Enhanced with ornate design */}
           <div className="flex justify-center items-center w-full mt-3">
             <div className="text-white text-xl" style={textStyle}>
-              ❦═══◊◈◊═══════════════════════════════════════════════════════════════════════════════════════════════════════◊◈◊═══❦
+              ❦═══◊◈◊═══════════════════════════════════════════════════════════════════════════════════════════◊◈◊═══❦
             </div>
           </div>
           

@@ -16,7 +16,7 @@ export default function PeopleSection() {
         </h2>
         
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300 text-center">
+          <div className="text-center">
             <div className="w-24 h-24 bg-amber-300 rounded-full mx-auto mb-4 flex items-center justify-center">
               <span className="text-3xl">👨‍💻</span>
             </div>
@@ -25,7 +25,7 @@ export default function PeopleSection() {
             <p className="text-amber-700">10+ years in tech events</p>
           </div>
           
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300 text-center">
+          <div className="text-center">
             <div className="w-24 h-24 bg-amber-300 rounded-full mx-auto mb-4 flex items-center justify-center">
               <span className="text-3xl">👩‍💼</span>
             </div>
@@ -34,7 +34,7 @@ export default function PeopleSection() {
             <p className="text-amber-700">Expert in logistics</p>
           </div>
           
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300 text-center">
+          <div className="text-center">
             <div className="w-24 h-24 bg-amber-300 rounded-full mx-auto mb-4 flex items-center justify-center">
               <span className="text-3xl">👨‍🎓</span>
             </div>
@@ -47,7 +47,7 @@ export default function PeopleSection() {
         <div>
           <h3 className="text-4xl font-bold mb-8 text-center text-amber-900">Speakers & Mentors</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300 text-center">
+            <div className="text-center">
               <div className="w-16 h-16 bg-amber-300 rounded-full mx-auto mb-3 flex items-center justify-center">
                 <span className="text-2xl">🚀</span>
               </div>
@@ -55,7 +55,7 @@ export default function PeopleSection() {
               <p className="text-amber-800 text-sm">AI Researcher, MIT</p>
             </div>
             
-            <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300 text-center">
+            <div className="text-center">
               <div className="w-16 h-16 bg-amber-300 rounded-full mx-auto mb-3 flex items-center justify-center">
                 <span className="text-2xl">💼</span>
               </div>
@@ -63,7 +63,7 @@ export default function PeopleSection() {
               <p className="text-amber-800 text-sm">CTO, TechCorp</p>
             </div>
             
-            <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300 text-center">
+            <div className="text-center">
               <div className="w-16 h-16 bg-amber-300 rounded-full mx-auto mb-3 flex items-center justify-center">
                 <span className="text-2xl">🌟</span>
               </div>
@@ -71,7 +71,7 @@ export default function PeopleSection() {
               <p className="text-amber-800 text-sm">Startup Founder</p>
             </div>
             
-            <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300 text-center">
+            <div className="text-center">
               <div className="w-16 h-16 bg-amber-300 rounded-full mx-auto mb-3 flex items-center justify-center">
                 <span className="text-2xl">🔧</span>
               </div>

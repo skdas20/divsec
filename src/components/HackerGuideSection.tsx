@@ -18,7 +18,7 @@ export default function HackerGuideSection() {
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <h3 className="text-3xl font-bold mb-6 text-amber-900">What to Bring</h3>
-            <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+            <div>
               <ul className="space-y-3 text-amber-800">
                 <li>• Laptop with charger</li>
                 <li>• Valid ID for registration</li>
@@ -30,7 +30,7 @@ export default function HackerGuideSection() {
             </div>
             
             <h3 className="text-3xl font-bold mb-6 mt-12 text-amber-900">Rules & Guidelines</h3>
-            <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+            <div>
               <ul className="space-y-3 text-amber-800">
                 <li>• Teams of 2-4 members</li>
                 <li>• 48-hour development time</li>
@@ -45,23 +45,23 @@ export default function HackerGuideSection() {
           <div>
             <h3 className="text-3xl font-bold mb-6 text-amber-900">Tracks & Themes</h3>
             <div className="space-y-4">
-              <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300">
+              <div>
                 <h4 className="font-bold text-amber-900">🌱 Sustainability</h4>
                 <p className="text-amber-800">Build solutions for environmental challenges</p>
               </div>
-              <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300">
+              <div>
                 <h4 className="font-bold text-amber-900">🏥 Healthcare</h4>
                 <p className="text-amber-800">Innovate in medical technology and wellness</p>
               </div>
-              <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300">
+              <div>
                 <h4 className="font-bold text-amber-900">🎓 Education</h4>
                 <p className="text-amber-800">Transform learning and accessibility</p>
               </div>
-              <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300">
+              <div>
                 <h4 className="font-bold text-amber-900">🤖 AI/ML</h4>
                 <p className="text-amber-800">Harness artificial intelligence</p>
               </div>
-              <div className="bg-amber-50/80 backdrop-blur-sm p-4 rounded-lg border border-amber-300">
+              <div>
                 <h4 className="font-bold text-amber-900">🌐 Open Innovation</h4>
                 <p className="text-amber-800">Build anything that makes impact</p>
               </div>

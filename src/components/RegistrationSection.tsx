@@ -15,7 +15,7 @@ export default function RegistrationSection() {
           Registration
         </h2>
         
-        <div className="bg-amber-50/80 backdrop-blur-sm p-12 rounded-lg border border-amber-300">
+        <div>
           <h3 className="text-4xl font-bold mb-8 text-amber-900">Join Diversion 2026</h3>
           <p className="text-xl text-amber-800 mb-8 leading-relaxed">
             Don't miss your chance to be part of the most exciting tech event of the year!

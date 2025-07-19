@@ -17,7 +17,7 @@ export default function ScheduleSection() {
         
         <div className="grid md:grid-cols-3 gap-8">
           {/* Day 1 */}
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+          <div>
             <h3 className="text-3xl font-bold mb-6 text-amber-900 text-center">Day 1</h3>
             <h4 className="text-xl font-bold mb-4 text-amber-800">Friday - Opening</h4>
             <div className="space-y-3">
@@ -45,7 +45,7 @@ export default function ScheduleSection() {
           </div>
           
           {/* Day 2 */}
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+          <div>
             <h3 className="text-3xl font-bold mb-6 text-amber-900 text-center">Day 2</h3>
             <h4 className="text-xl font-bold mb-4 text-amber-800">Saturday - Build</h4>
             <div className="space-y-3">
@@ -77,7 +77,7 @@ export default function ScheduleSection() {
           </div>
           
           {/* Day 3 */}
-          <div className="bg-amber-50/80 backdrop-blur-sm p-6 rounded-lg border border-amber-300">
+          <div>
             <h3 className="text-3xl font-bold mb-6 text-amber-900 text-center">Day 3</h3>
             <h4 className="text-xl font-bold mb-4 text-amber-800">Sunday - Demo</h4>
             <div className="space-y-3">

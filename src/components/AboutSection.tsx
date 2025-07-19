@@ -39,7 +39,7 @@ export default function AboutSection() {
               </div>
             </div>
           </div>
-          <div className="bg-amber-50/80 backdrop-blur-sm p-8 rounded-lg border border-amber-300">
+          <div>
             <h3 className="text-3xl font-bold mb-6 text-amber-900">Event Highlights</h3>
             <ul className="space-y-3 text-left">
               <li className="text-amber-800">• 48-hour intensive hackathon</li>
