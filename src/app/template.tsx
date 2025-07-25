@@ -6,10 +6,10 @@ export default function Template({ children }: { children: React.ReactNode }) {
   const [loading, setLoading] = useState(true);
   
   useEffect(() => {
-    // Loading screen will auto-hide after 3 seconds
+    // Loading screen will auto-hide after 6 seconds
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 6000);
     
     return () => clearTimeout(timer);
   }, []);

@@ -3,21 +3,16 @@ export default function HackerGuideSection() {
     <section 
       id="hacker-guide" 
       className="min-h-screen flex items-center justify-center py-20 section-fold hazy-border"
-      style={{
-        backgroundImage: "url('/assets/bg.png')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed'
-      }}
+      // background removed for video
     >
       <div className="max-w-6xl mx-auto px-8">
-        <h2 className="text-6xl font-bold mb-12 text-center text-amber-900">
+        <h2 className="text-6xl mb-12 text-center text-amber-900">
           Hacker Guide
         </h2>
         
         <div className="grid md:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-3xl font-bold mb-6 text-amber-900">What to Bring</h3>
+            <h3 className="text-3xl mb-6 text-amber-900">What to Bring</h3>
             <div>
               <ul className="space-y-3 text-amber-800">
                 <li>• Laptop with charger</li>
@@ -29,7 +24,7 @@ export default function HackerGuideSection() {
               </ul>
             </div>
             
-            <h3 className="text-3xl font-bold mb-6 mt-12 text-amber-900">Rules & Guidelines</h3>
+            <h3 className="text-3xl mb-6 mt-12 text-amber-900">Rules & Guidelines</h3>
             <div>
               <ul className="space-y-3 text-amber-800">
                 <li>• Teams of 2-4 members</li>
@@ -43,26 +38,26 @@ export default function HackerGuideSection() {
           </div>
           
           <div>
-            <h3 className="text-3xl font-bold mb-6 text-amber-900">Tracks & Themes</h3>
+            <h3 className="text-3xl mb-6 text-amber-900">Tracks & Themes</h3>
             <div className="space-y-4">
               <div>
-                <h4 className="font-bold text-amber-900">🌱 Sustainability</h4>
+                <h4 className="text-amber-900">🌱 Sustainability</h4>
                 <p className="text-amber-800">Build solutions for environmental challenges</p>
               </div>
               <div>
-                <h4 className="font-bold text-amber-900">🏥 Healthcare</h4>
+                <h4 className="text-amber-900">🏥 Healthcare</h4>
                 <p className="text-amber-800">Innovate in medical technology and wellness</p>
               </div>
               <div>
-                <h4 className="font-bold text-amber-900">🎓 Education</h4>
+                <h4 className="text-amber-900">🎓 Education</h4>
                 <p className="text-amber-800">Transform learning and accessibility</p>
               </div>
               <div>
-                <h4 className="font-bold text-amber-900">🤖 AI/ML</h4>
+                <h4 className="text-amber-900">🤖 AI/ML</h4>
                 <p className="text-amber-800">Harness artificial intelligence</p>
               </div>
               <div>
-                <h4 className="font-bold text-amber-900">🌐 Open Innovation</h4>
+                <h4 className="text-amber-900">🌐 Open Innovation</h4>
                 <p className="text-amber-800">Build anything that makes impact</p>
               </div>
             </div>

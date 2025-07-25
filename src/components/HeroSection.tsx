@@ -3,12 +3,7 @@ export default function HeroSection() {
     <section
       id="home"
       className="h-screen relative"
-      style={{
-        backgroundImage: "url('/assets/bg.png')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}
+      // background removed for video
     >
       {/* Left sidebar text - positioned lower */}
       <div className="absolute left-6 top-3/5 transform -translate-y-1/2 z-20 max-w-xs">
@@ -65,7 +60,7 @@ export default function HeroSection() {
       {/* Main content centered */}
       <div className="absolute inset-0 flex items-center justify-center text-white z-10">
         <div className="text-center">
-          <h1 className="text-6xl md:text-8xl font-bold mb-6"
+          <h1 className="text-6xl md:text-8xl mb-6"
               style={{ 
                 fontFamily: 'Rye, serif',
                 textShadow: '3px 3px 6px rgba(0,0,0,0.8)' 

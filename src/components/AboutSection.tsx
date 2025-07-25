@@ -3,15 +3,10 @@ export default function AboutSection() {
     <section 
       id="about" 
       className="min-h-screen flex items-center justify-center py-20 section-fold hazy-border"
-      style={{
-        backgroundImage: "url('/assets/bg.png')",
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed'
-      }}
+      // background removed for video
     >
       <div className="max-w-6xl mx-auto px-8 text-center">
-        <h2 className="text-6xl font-bold mb-12 text-amber-900">
+        <h2 className="text-6xl mb-12 text-amber-900">
           About Diversion 2026
         </h2>
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -40,7 +35,7 @@ export default function AboutSection() {
             </div>
           </div>
           <div>
-            <h3 className="text-3xl font-bold mb-6 text-amber-900">Event Highlights</h3>
+            <h3 className="text-3xl mb-6 text-amber-900">Event Highlights</h3>
             <ul className="space-y-3 text-left">
               <li className="text-amber-800">• 48-hour intensive hackathon</li>
               <li className="text-amber-800">• Industry expert workshops</li>

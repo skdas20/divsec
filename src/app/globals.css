@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -30,6 +31,11 @@ body {
 * {
   font-family: 'Rye', serif;
   color: #000000 !important;
+}
+
+/* Use Special Elite for all paragraph text */
+p {
+  font-family: 'Special Elite', cursive;
 }
 
 /* Newspaper button style for all site buttons */
